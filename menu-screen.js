@@ -18,7 +18,7 @@ class MenuScreen {
   }
 
   getListSong() {
-    fetch('https://yayinternet.github.io/hw4-music/songs.json')
+    fetch('https://ashishkanwat81.github.io/web_technology/songs.json')
       .then((response) => {
         return response.json();
       })
